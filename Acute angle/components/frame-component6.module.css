@@ -1,0 +1,854 @@
+.frameChild {
+  width: 527px;
+  height: 461px;
+  position: relative;
+  border-radius: var(--br-45xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.revenueByDevice {
+  margin: 0;
+  font-size: inherit;
+  line-height: 120px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 180px;
+}
+.arrowRightIcon,
+.more,
+.revenueByDevice {
+  position: relative;
+  z-index: 1;
+}
+.more {
+  margin: 0;
+  font-size: inherit;
+  line-height: 88px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 50px;
+}
+.arrowRightIcon {
+  width: 32px;
+  flex: 1;
+  max-height: 100%;
+  overflow: hidden;
+}
+.arrowRightWrapper {
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.moreParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameContainer {
+  width: 121px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+  min-width: 121px;
+  text-align: right;
+  color: var(--typography-2);
+}
+.revenueByDeviceParent {
+  width: 427px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.filterParent,
+.filterParent1,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-royalblue);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.filterParent,
+.filterParent1 {
+  background-color: var(--essential-4);
+  z-index: 2;
+}
+.filterParent1 {
+  background-color: var(--essential-5);
+  z-index: 3;
+}
+.valueSetter {
+  position: absolute;
+  top: 50px;
+  left: 63px;
+  line-height: 160px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 59px;
+  height: 24px;
+  z-index: 5;
+}
+.dataAggregator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.ellipseParent {
+  position: absolute;
+  height: calc(100% - 24px);
+  top: 12px;
+  bottom: 12px;
+  left: 18px;
+  width: 186px;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--brand-color-3);
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.frameParent1 {
+  height: 148px;
+  width: 222px;
+  position: relative;
+}
+.frameWrapper1 {
+  width: 458px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ellipseDiv {
+  width: 32px;
+  height: 16px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-royalblue);
+  z-index: 1;
+}
+.outputCollectorInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.desktop {
+  flex: 1;
+  position: relative;
+  line-height: 44px;
+  z-index: 1;
+}
+.outputCollector {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.sortedData {
+  width: 32px;
+  height: 16px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--essential-4);
+  z-index: 1;
+}
+.sortedDataWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+}
+.mobile {
+  flex: 1;
+  position: relative;
+  line-height: 45px;
+  z-index: 1;
+}
+.inputProcessor,
+.nestedBranch {
+  display: flex;
+  justify-content: flex-start;
+}
+.nestedBranch {
+  width: 124px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-mini);
+  margin-top: -8px;
+}
+.inputProcessor {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 143px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 44px;
+  font-weight: 500;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.dataTransformer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.div1 {
+  margin-top: -9px;
+  flex: 1;
+  position: relative;
+  line-height: 45px;
+  font-weight: 500;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.outputMap,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  width: 96px;
+  height: 36px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outputMap {
+  flex: 1;
+  flex-direction: column;
+}
+.errorHandling {
+  flex: 1;
+  position: relative;
+  line-height: 44px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.errorHandlingWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.dataRetrieval {
+  margin-top: -4px;
+  flex: 1;
+  position: relative;
+  line-height: 45px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.dataStorage {
+  align-self: stretch;
+  height: 41px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dataStorage,
+.frameParent2,
+.inputMap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  width: 73px;
+  flex-direction: column;
+  margin-left: -63px;
+  text-align: right;
+  color: var(--typography-3);
+}
+.inputMap {
+  position: absolute;
+  top: 8px;
+  left: 111px;
+  width: 113px;
+  flex-direction: row;
+  color: var(--typography-1);
+}
+.dataValidation {
+  position: absolute;
+  top: 15px;
+  left: 236px;
+  border-right: 4px solid var(--line-2);
+  box-sizing: border-box;
+  width: 4px;
+  height: 88px;
+  z-index: 1;
+}
+.dataInput {
+  width: 32px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--essential-5);
+  z-index: 1;
+}
+.dataInputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mini) var(--padding-mini) 0;
+}
+.tablet {
+  align-self: stretch;
+  height: 23px;
+  position: relative;
+  line-height: 88px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.dataOutput1 {
+  width: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.dataStreams {
+  flex: 1;
+  position: relative;
+  line-height: 45px;
+  font-weight: 500;
+  color: var(--typography-1);
+  white-space: nowrap;
+  z-index: 2;
+}
+.dataOutput {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.dataIntegration {
+  width: 32px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--brand-color-3);
+  z-index: 1;
+}
+.dataFormats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) var(--padding-mid) 0;
+}
+.unknown {
+  height: 23px;
+  position: relative;
+  line-height: 88px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 61px;
+  z-index: 1;
+}
+.dataSynchronization {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2xs);
+}
+.dataFiltering {
+  flex: 1;
+  position: relative;
+  line-height: 44px;
+  font-weight: 500;
+  color: var(--typography-1);
+  white-space: nowrap;
+  z-index: 3;
+}
+.dataBuffers,
+.dataProcessing {
+  display: flex;
+  justify-content: flex-start;
+}
+.dataBuffers {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: -1px;
+}
+.dataProcessing {
+  position: absolute;
+  top: 4px;
+  left: 248px;
+  width: 200px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.div2 {
+  align-self: stretch;
+  height: 45px;
+  position: relative;
+  line-height: 88px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.dataSearching {
+  flex: 1;
+  position: relative;
+  line-height: 44px;
+  z-index: 4;
+}
+.dataIndexing {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-3xs);
+}
+.dataSorting {
+  position: absolute;
+  top: 0;
+  left: 403px;
+  width: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: right;
+}
+.dataComparer {
+  align-self: stretch;
+  height: 99px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--typography-3);
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.frameDiv,
+.rectangleParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 0;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.rectangleParent {
+  width: 527px;
+  border-radius: var(--br-45xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-14xl) var(--padding-2xl)
+    var(--padding-xl);
+  gap: var(--gap-12xl);
+  min-width: 527px;
+}
+.dataCombining,
+.dataCombining1 {
+  height: 4px;
+  width: 701.7px;
+  position: absolute;
+  margin: 0 !important;
+  border-top: 4px solid var(--color-white);
+  box-sizing: border-box;
+}
+.dataCombining {
+  top: 160px;
+  right: -28.7px;
+  z-index: 3;
+}
+.dataCombining1 {
+  right: -19.7px;
+  bottom: 148px;
+  z-index: 2;
+}
+.dataMappingChild {
+  width: 684px;
+  height: 406px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  display: none;
+  max-width: 100%;
+}
+.product {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 88px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.dataDicing {
+  flex: 0.8889;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.price,
+.sortIcon {
+  position: relative;
+  z-index: 1;
+}
+.price {
+  margin: 0;
+  font-size: inherit;
+  line-height: 88px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 60px;
+}
+.sortIcon {
+  width: 32px;
+  height: 40px;
+}
+.sortWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 0;
+}
+.dataSlicing,
+.frameParent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent3 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.dataSlicing {
+  width: 606px;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.ellipseIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.ellipseWrapper {
+  height: 68px;
+  width: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+}
+.decoAccessory {
+  position: relative;
+  line-height: 88px;
+  display: inline-block;
+  min-width: 107px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.decoAccessoryWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  text-align: left;
+}
+.div3 {
+  width: 42px;
+  position: relative;
+  line-height: 88px;
+  display: flex;
+  align-items: center;
+  min-width: 42px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.container {
+  width: 122px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.div4 {
+  width: 27px;
+  position: relative;
+  line-height: 88px;
+  display: flex;
+  align-items: center;
+  min-width: 27px;
+  z-index: 2;
+}
+.frame {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.div5 {
+  width: 62px;
+  position: relative;
+  line-height: 88px;
+  display: flex;
+  align-items: center;
+  min-width: 62px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.dataRoutingInner,
+.frameParent4 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent4 {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.dataRoutingInner {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  margin-top: -33px;
+  text-align: right;
+  font-size: var(--table-heading-size);
+  color: var(--typography-2);
+}
+.dataMapping,
+.dataMappingInner,
+.dataRouting {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dataRouting {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.dataMapping,
+.dataMappingInner {
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.dataMappingInner {
+  width: 621px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+}
+.dataMapping {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-4xs) var(--padding-30xl)
+    var(--padding-mid);
+  gap: var(--gap-11xs-5);
+}
+.dataCombining2 {
+  height: 4px;
+  width: 701.7px;
+  position: absolute;
+  margin: 0 !important;
+  right: -21.7px;
+  bottom: 51px;
+  border-top: 4px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.dataSplitting {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.dataMerging,
+.dataSplitting,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dataMerging {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  min-width: 445px;
+  font-size: var(--font-size-5xl);
+  color: var(--typography-3);
+}
+.frameParent,
+.frameWrapper {
+  flex-direction: row;
+}
+.frameParent {
+  flex: 1;
+  gap: var(--gap-50xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--typography-1);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1125px) {
+  .rectangleParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-mini);
+    min-width: 100%;
+  }
+  .dataSlicing {
+    gap: var(--gap-base);
+  }
+  .dataMerging {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .more,
+  .revenueByDevice {
+    font-size: var(--font-size-base);
+  }
+  .revenueByDevice {
+    line-height: 96px;
+    flex: 1;
+  }
+  .more {
+    line-height: 70px;
+  }
+  .frameContainer {
+    flex: 1;
+  }
+  .revenueByDeviceParent {
+    flex-wrap: wrap;
+  }
+  .valueSetter {
+    font-size: var(--font-size-lgi);
+    line-height: 128px;
+  }
+  .dataMapping {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-mid);
+  }
+}

@@ -1,0 +1,49 @@
+.shapeTransformer {
+  width: 1335.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+  max-width: 100%;
+}
+.desktop1,
+.shapeTransformerWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.shapeTransformerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-21xl) 75.9px;
+  max-width: 100%;
+}
+.desktop1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) var(--padding-11xs-5) 67px var(--padding-11xs);
+  gap: 29.6px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .shapeTransformerWrapper {
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .shapeTransformer {
+    gap: var(--gap-11xl);
+  }
+  .shapeTransformerWrapper {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}

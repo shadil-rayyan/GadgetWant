@@ -1,0 +1,194 @@
+.frameChild {
+  width: 1385px;
+  height: 338px;
+  position: relative;
+  background-color: var(--color-lightskyblue-100);
+  display: none;
+  max-width: 100%;
+}
+.needsFromOur,
+.stayHome {
+  margin: 0;
+}
+.heading2Container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.startYourDaily {
+  width: 378px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 24px;
+  font-family: var(--font-lato);
+  color: var(--color-gray-200);
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameWrapper,
+.heading2StayHomeGetYoParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.heading2StayHomeGetYoParent {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-17xl);
+  box-sizing: border-box;
+}
+.yourEmaillAddress {
+  position: relative;
+}
+.divplaceholder {
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.divplaceholder,
+.input,
+.subscribe {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  width: 218.3px;
+  border-radius: var(--br-31xl) 0 0 var(--br-31xl);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-3xl-5) var(--padding-11xs);
+  box-sizing: border-box;
+  background-image: url(/input2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.subscribe {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-family: var(--font-quicksand);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 80.1px;
+}
+.button,
+.form {
+  border-radius: var(--br-31xl);
+  display: flex;
+  box-sizing: border-box;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) var(--padding-20xl-6) var(--padding-3xl)
+    var(--padding-21xl);
+  background-color: var(--color-steelblue-200);
+  width: 159.7px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-steelblue-100);
+}
+.form {
+  width: 439px;
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-53xl);
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-lato);
+}
+.newslatterCalling,
+.newslatterCallingWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  width: 1385px;
+  background-color: var(--color-lightskyblue-100);
+  flex-direction: column;
+  padding: var(--padding-30xl) var(--padding-lgi) var(--padding-20xl);
+  gap: var(--gap-27xl);
+  max-width: 100%;
+}
+.newslatterCalling,
+.newslatterCallingWrapper {
+  flex-direction: row;
+}
+.newslatterCalling {
+  flex: 1;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  padding: var(--padding-15xl) var(--padding-4xl);
+  max-width: 100%;
+}
+.newslatterCallingWrapper {
+  width: 1514px;
+  padding: 0 0 var(--padding-23xl-4);
+  max-width: 105%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-quicksand);
+}
+@media screen and (max-width: 1050px) {
+  .heading2Container {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .form {
+    flex-wrap: wrap;
+  }
+  .rectangleParent {
+    gap: var(--gap-4xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading2Container {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .form {
+    gap: var(--gap-17xl);
+  }
+  .newslatterCalling {
+    padding-top: var(--padding-3xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .newslatterCallingWrapper {
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,310 @@
+.banner1pngIcon {
+  width: 100%;
+  height: 237.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.ourProductAre {
+  margin: 0;
+  width: 299px;
+  height: 129px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28.8px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.shopNow {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.5px;
+  line-height: 15.6px;
+  display: inline-block;
+  font-family: var(--font-quicksand);
+  color: var(--color-white);
+  text-align: center;
+  min-width: 62.5px;
+}
+.ifiRsArrowSmallRightIcon {
+  height: 15.6px;
+  width: 14.5px;
+  position: relative;
+  min-height: 16px;
+}
+.link,
+.linkWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-3xs-6) var(--padding-xs)
+    var(--padding-smi);
+  background-color: var(--color-royalblue);
+  flex: 1;
+  border-radius: var(--br-9xs);
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.link1:hover,
+.link2:hover,
+.link:hover {
+  background-color: var(--color-dodgerblue-100);
+}
+.linkWrapper {
+  width: 193.6px;
+  padding: 0 var(--padding-26xl);
+  box-sizing: border-box;
+}
+.banner2pngIcon,
+.productCard {
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.productCard {
+  width: 405.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-8xs) var(--padding-30xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-mini-9);
+}
+.banner2pngIcon {
+  width: 100%;
+  height: 237.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  object-fit: cover;
+}
+.bringTechTo {
+  margin: 0;
+  width: 259px;
+  height: 59px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28.8px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.shopNow1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.5px;
+  line-height: 15.6px;
+  display: inline-block;
+  font-family: var(--font-quicksand);
+  color: var(--color-white);
+  text-align: center;
+  min-width: 62.5px;
+}
+.ifiRsArrowSmallRightIcon1 {
+  height: 15.6px;
+  width: 14.5px;
+  position: relative;
+  min-height: 16px;
+}
+.link1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-3xs-6) var(--padding-xs)
+    var(--padding-smi);
+  background-color: var(--color-royalblue);
+  flex: 1;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.constantValue,
+.functionTree,
+.link1,
+.techCard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.constantValue {
+  width: 170.2px;
+  flex-direction: row;
+  padding: 0 var(--padding-14xl) 0 var(--padding-14xl-3);
+  box-sizing: border-box;
+}
+.functionTree,
+.techCard {
+  flex-direction: column;
+  max-width: 100%;
+}
+.techCard {
+  width: 405.3px;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  padding: var(--padding-51xl) var(--padding-base-7) var(--padding-30xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-15xl-9);
+}
+.functionTree {
+  flex: 1;
+  min-width: 301px;
+}
+.banner3pngIcon {
+  width: 100%;
+  height: 237.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.theGiftYou {
+  margin: 0;
+  width: 236px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28.8px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.shopNow2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.5px;
+  line-height: 15.6px;
+  display: inline-block;
+  font-family: var(--font-quicksand);
+  color: var(--color-white);
+  text-align: center;
+  min-width: 62.5px;
+}
+.ifiRsArrowSmallRightIcon2 {
+  height: 15.6px;
+  width: 14.5px;
+  position: relative;
+  min-height: 16px;
+}
+.link2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-3xs-6) var(--padding-xs)
+    var(--padding-smi);
+  background-color: var(--color-royalblue);
+  flex: 1;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.giftSectionCard,
+.link2,
+.linkContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linkContainer {
+  width: 114.2px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs) 0 var(--padding-7xs-3);
+  box-sizing: border-box;
+}
+.giftSectionCard {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-57xl-1) var(--padding-xl) var(--padding-30xl)
+    var(--padding-25xl-7);
+  position: relative;
+  gap: var(--gap-9xl-8);
+}
+.giftSectionCardWrapper,
+.productCardParent,
+.shapeTransformerInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.giftSectionCardWrapper {
+  width: 405.3px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.productCardParent,
+.shapeTransformerInner {
+  flex-direction: row;
+}
+.productCardParent {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: var(--gap-5xl);
+}
+.shapeTransformerInner {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-quicksand);
+}
+@media screen and (max-width: 450px) {
+  .bringTechTo,
+  .ourProductAre {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .techCard {
+    gap: var(--gap-mid);
+  }
+  .theGiftYou {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .giftSectionCard {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
